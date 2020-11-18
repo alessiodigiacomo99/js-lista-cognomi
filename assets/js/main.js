@@ -1,7 +1,7 @@
 // Chiedere all'utente il cognome
 var cognome = prompt("Qual è il tuo cognome?");
 var listaCognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
-var cognomeCapitalized = cognome.charAt(0).toUpperCase() + cognome.slice(1)
+var cognomeCapitalized = cognome.charAt(0).toUpperCase() + cognome.slice(1);
 
 // Inserirlo in un array con altri cognomi
 listaCognomi.push(cognomeCapitalized);
