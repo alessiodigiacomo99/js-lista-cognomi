@@ -13,7 +13,7 @@ console.log(listaCognomi);
 // Scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
 for (i = 0; i < listaCognomi.length; i++) {
     if(cognomeCapitalized == listaCognomi[i]){
-        console.log(i);
+        console.log(i + 1);
         
     }
 }
